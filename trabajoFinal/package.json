@@ -1,0 +1,28 @@
+{
+  "name": "trabajofinal",
+  "version": "0.1.0",
+  "description": "Proyecto Final BackEnd Pablo Macchi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmacchi/trabajoFinalBE.git"
+  },
+  "author": "Pablo Macchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmacchi/trabajoFinalBE/issues"
+  },
+  "homepage": "https://github.com/pmacchi/trabajoFinalBE#readme",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
